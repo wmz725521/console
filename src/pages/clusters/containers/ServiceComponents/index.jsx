@@ -54,7 +54,7 @@ export default class ServiceComponents extends React.Component {
     return this.props.match.params.cluster
   }
 
-  getColor = healthy => (healthy ? '#f5a623' : '#55bc8a')
+  getColor = healthy => (healthy ? '#f5a623' : '#024d8e')
 
   getCount = type => {
     const exceptionCount = this.store.exceptionCount
@@ -66,7 +66,7 @@ export default class ServiceComponents extends React.Component {
   getConfigs = () => [
     {
       type: 'kubesphere',
-      title: 'KubeSphere',
+      title: '中国恩菲',
       icon: '/assets/kubesphere.svg',
     },
     {

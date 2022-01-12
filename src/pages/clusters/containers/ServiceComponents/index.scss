@@ -52,6 +52,11 @@
       padding: 4px 51px 4px 24px;
     }
 
+    .radio-group-button label.radio-button.checked {
+      color: #fff;
+      background-color: #024d8e;
+    }
+
     .tag {
       position: absolute;
       top: 4px;
@@ -61,7 +66,7 @@
       border-radius: 10px;
       color: #ffffff !important;
       border: none !important;
-      box-shadow: 0 2px 4px 0 rgba(85, 188, 138, 0.36);
+      // box-shadow: 0 2px 4px 0 rgba(85, 188, 138, 0.36);
     }
   }
 }

@@ -80,3 +80,20 @@
 .columnMenu {
   width: 160px;
 }
+
+.table table > tbody > tr:hover > td a {
+  color: #024d8e !important;
+}
+
+.table table > tbody > tr.table-row-selected > td:first-child {
+  border-left: 1px solid #024d8e !important;
+}
+.table {
+  .table-has-selected > .table-title {
+    background-color: #024d8e !important;
+  }
+}
+.table table > tbody > tr.table-row-selected > td {
+  border-top: 1px solid #024d8e !important;
+  background-color: #eff4f9;
+}

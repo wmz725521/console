@@ -6,7 +6,7 @@
   width: 326px;
   padding: 8px;
   border-radius: 2px;
-  background-color: $dark-color07;
+  background-color: $enfi-blue;
 }
 
 .content {
@@ -15,7 +15,6 @@
   padding: 12px;
   background-color: $light-color01;
 }
-
 
 .empty {
   @include TypographyTitleH5($light-color08);

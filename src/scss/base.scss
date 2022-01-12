@@ -167,8 +167,8 @@ pre {
 
   &:hover {
     svg {
-      color: #00aa72;
-      fill: #90e0c5;
+      color: #024d8e;
+      fill: #80a6c6;
     }
   }
 }
@@ -264,4 +264,118 @@ pre {
     white-space: nowrap;
     z-index: 100;
   }
+}
+
+//  自定义内容
+a:hover {
+  color: #024d8e;
+}
+
+input.input {
+  &:not([readonly]):not([disabled]):hover {
+    border-color: #024d8e;
+  }
+  &:not([readonly]):not([disabled]):focus {
+    border-color: #024d8e;
+    box-shadow: #326e93;
+  }
+}
+
+.textarea {
+  &:not([readonly]):not([disabled]):hover {
+    border-color: #024d8e;
+  }
+  &:not([readonly]):not([disabled]):focus {
+    border-color: #024d8e;
+    box-shadow: #326e93;
+  }
+}
+
+.select.is-open .select-control {
+  border-color: #024d8e;
+}
+
+label.checkbox.checked:before,
+label.checkbox.checked:hover:before {
+  border-color: transparent;
+  background-color: #024d8e;
+}
+
+label.checkbox.indeterminate:before,
+label.checkbox.indeterminate:hover:before {
+  border-color: transparent;
+  background-color: #024d8e;
+}
+
+label.checkbox:not(.disabled):active.checked:before,
+label.checkbox:not(.disabled):active.indeterminate:before {
+  border-color: transparent;
+  background-color: #024d8e;
+}
+
+.table table a:hover {
+  color: #024d8e;
+}
+
+.table-has-selected > .table-title {
+  background-color: #fff;
+}
+
+.table table > tbody > tr.table-row-selected > td {
+  border-top: 1px solid #024d8e;
+  background-color: #eff4f9;
+}
+
+.table table > tbody > tr.table-row-selected > td:first-child {
+  border-left: 1px solid #024d8e;
+}
+
+.table table > tbody > tr.table-row-selected > td:last-child {
+  border-right: 1px solid #024d8e;
+}
+
+.table table > tbody > tr:last-child.table-row-selected > td {
+  border-bottom: 1px solid #024d8e;
+}
+
+.table table > tbody .table-row-selected + tr > td {
+  border-top: 1px solid #024d8e;
+}
+
+.button-control {
+  color: #ffffff;
+  border: 1px solid #024d8e;
+  background-color: #024d8e;
+}
+
+.radio-group-button label.radio-button.checked {
+  background-color: #024d8e;
+  color: #ffffff;
+}
+
+.src-components-Cards-Monitoring-Controller-TimeSelector-index__button {
+  background-color: #024d8e !important;
+}
+
+.src-core-containers-Base-Detail-index__nav {
+  background-color: #fff !important;
+}
+
+.src-core-containers-Base-Detail-index__navItem {
+  color: #024d8e !important;
+}
+
+.src-core-containers-Base-Detail-index__navItem.src-core-containers-Base-Detail-index__active {
+  color: #fff !important;
+}
+
+.tabs-container .tabs.tabs-button > ul > li.is-active {
+  background-color: #024d8e;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.kubed-icon-coloured {
+  color: #024d8e;
+  fill: #7eb8dc;
 }

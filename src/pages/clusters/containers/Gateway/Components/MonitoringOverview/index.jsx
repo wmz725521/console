@@ -246,7 +246,7 @@ export default class MonitoringOverview extends React.Component {
               legend={['SUCCESSFUL_REQUESTS', 'TOTAL']}
               showCenter={true}
               showRate={false}
-              areaColors={['#55BC8A', '#E3E9EF']}
+              areaColors={['#024d8e', '#E3E9EF']}
               renderCustomCenter={({ value }) => (
                 <div className={styles.simpleContent}>
                   <p>{t('SUCCESSFUL_REQUESTS')}</p>

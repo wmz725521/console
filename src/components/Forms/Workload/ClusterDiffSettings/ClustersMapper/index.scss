@@ -4,9 +4,9 @@
 .cluster {
   padding: 6px 8px 8px;
   border-radius: 2px;
-  background-color: $dark-color07;
+  background-color: $enfi-blue;
   cursor: pointer;
- 
+
   .title {
     @include TypographySymbolText(#fff);
 
